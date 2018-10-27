@@ -1,0 +1,77 @@
+/* Hlavný layout */
+body
+{
+    background-color: #556B2F;
+}
+
+#header
+{
+    margin-top: 3%;
+    width: 100%;
+    height: 360px;
+}
+
+.mySlides {
+    width: 100%;
+    height: 100%;
+}
+/* - - - - - - - - - - - - - -  */
+
+/* Menu lišta */
+
+.collapse.navbar-collapse ul a:hover
+{
+    background-color: 	#839F4B;
+}
+
+.sticky
+{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+.col-sm-10
+{
+    background-color: #839F4B;
+    -moz-box-shadow:    3px 3px 5px 6px #191919;
+    -webkit-box-shadow: 3px 3px 5px 6px #191919;
+    box-shadow:         3px 3px 5px 6px #191919;
+    margin-bottom: 3%;
+}
+/* - - - - - - - - - - - - - -  */
+
+/* col-sm-2 - bočná lišta */
+
+#spk, #spkZM, #opk {
+    margin-bottom: 10px;
+}
+
+#spk img, #spkZM img,#opk img, #dane img
+{
+    width: 100%;
+    border: 2px solid green;
+}
+
+#spk img:hover, #spkZM img:hover, #opk img:hover, #dane img:hover
+{
+    border: 4px solid #6B8E23;
+    width: 120%;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+
+/* - - - - - - - - - - - - - -  */
+
+
+@media (min-width: 1200px)
+{
+    .container{
+        max-width: 960px;
+    }
+}
+
