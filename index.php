@@ -1,1 +1,1 @@
-Ahoj som macka
+som pes
